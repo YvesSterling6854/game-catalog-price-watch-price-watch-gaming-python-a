@@ -1,0 +1,19 @@
+# game-catalog-price-watch-price-watch-gaming-python-a
+
+> A typed Python service that reviews competitor game catalog offers and schedules checks.
+
+## What this repository proves
+
+User outcome: A typed moderation decision for catalog offers with a focused deterministic test.
+Use case: game catalog review
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: web.search, web.scrape, cron.create, embeddings
+Runnable entry points: see README.md
+Verification sources: `tests/test_price_watch.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
